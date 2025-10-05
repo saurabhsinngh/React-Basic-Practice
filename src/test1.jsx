@@ -12,9 +12,9 @@
 
 </ul>
 
-<button onclick="Alert()"}>Click Me</button>
+<button onclick="showAlert()">Click Me</button>
 
-function Alert(){
+function showAlert(){
     alert("Hello Saurabh how are you ?");
 }
     
@@ -23,6 +23,10 @@ Note: There is a HTML & JS code task is club both codes in JSX.
 */}
 
 function Test1() {
+    function showAlert(){
+        alert("Hello Saurabh how are you ?");
+    }
+
     return (
         <>
             <h1>Saurabh Singh Todos</h1>
@@ -36,7 +40,7 @@ function Test1() {
 
                 </ul>
 
-            <button onClick = {()=> alert("Hello guys, Saurabh how are you ?")}>Click Me</button>
+            <button onClick = { showAlert }>Click Me</button>
         </>
     )
 }
