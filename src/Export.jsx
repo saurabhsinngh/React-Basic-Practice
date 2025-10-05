@@ -30,6 +30,7 @@ function Practice() {
         <h1> Practice of jSX</h1>
         <h1> Some of a+b is: {a + b}</h1>
         <h1>Here is the username: {user}</h1>
+        <button onClick={()=> alert("Hello")}>Alert button</button>
     </>)
 }
 
