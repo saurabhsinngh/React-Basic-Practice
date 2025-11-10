@@ -34,4 +34,6 @@ function Practice() {
     </>)
 }
 
+export const userInfo = 'Always Happy'
+
 export default Practice;
