@@ -7,11 +7,13 @@ import { userInfo } from './Export';
 import PracticeAll  from './practiceAll';
 import Table from './FunctionCall';
 import User from './UseState';
+import Hook from './Hook';
 
 function App() {
   const [counter, setCounter] = useState(0);
   return (
   <>
+    <Hook />
     <User />
     <Table />
     <br></br>
