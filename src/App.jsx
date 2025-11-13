@@ -8,11 +8,13 @@ import PracticeAll  from './practiceAll';
 import Table from './FunctionCall';
 import User from './UseState';
 import Hook from './Hook';
+import Toggle from './Toggle';
 
 function App() {
   const [counter, setCounter] = useState(0);
   return (
   <>
+    <Toggle />
     <Hook />
     <User />
     <Table />
