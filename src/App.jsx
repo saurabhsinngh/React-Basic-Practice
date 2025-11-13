@@ -9,11 +9,13 @@ import Table from './FunctionCall';
 import User from './UseState';
 import Hook from './Hook';
 import Toggle from './Toggle';
+import MultipleCondition from './multipleCondition';
 
 function App() {
   const [counter, setCounter] = useState(0);
   return (
   <>
+    <MultipleCondition />
     <Toggle />
     <Hook />
     <User />
