@@ -5,7 +5,7 @@ function Toggle() {
     return (
         <>
             <h1>Hide and show data</h1>
-            { display ? <h1>Gaurav Singh</h1> : null }
+            { display ? <h1>Saurabh Singh</h1> : <h1>Suraj Singh</h1> }
             <button onClick={()=> setDisplay(!display)}>Toggle Button</button>
         </>
     )

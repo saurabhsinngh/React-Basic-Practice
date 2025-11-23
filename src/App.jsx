@@ -11,11 +11,37 @@ import Hook from './Hook';
 import Toggle from './Toggle';
 import MultipleCondition from './multipleCondition';
 import Counter from './Counter';
+import Prop from './Prop';
+import School from './School';
 
 function App() {
   const [counter, setCounter] = useState(0);
+
+  let userObj1 = {
+    name : "Suraj Singh",
+    age : 36,
+    email : "suraj@gmail.com"
+  }
+
+  let userObj2 = {
+    name : "Jasdeep Singh",
+    age : 34,
+    email : "jasdeep@gmail.com"
+  }
+
+  let school = ["IIT", "MNIT", "IIIT"];
+  const [name, setName] = useState("Vinay");
+  
   return (
-  <>
+  <> 
+    {name}
+    <hr></hr>
+    <button onClick={()=> setName(name === "Saurabh" ? "Vinay" : "Saurabh")}>Change Name</button>
+
+    <School schoolName = {school[0]}/>
+    <School schoolName = {school[1]}/>
+
+    <Prop userInfo1 = {userObj1} userInfo2 = {userObj2} />
     <Counter />
     <MultipleCondition />
     <Toggle />
