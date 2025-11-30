@@ -13,6 +13,8 @@ import MultipleCondition from './multipleCondition';
 import Counter from './Counter';
 import Prop from './Prop';
 import School from './School';
+import DefaultProps from './DefaultProps';
+import Wrapper from './Wrapper';
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -34,6 +36,12 @@ function App() {
   
   return (
   <> 
+    <Wrapper color = "yellow"> <h2>Hello Saurabh</h2></ Wrapper>
+    <Wrapper color = "blue"> <h2>Hello Suraj</h2></ Wrapper>
+    <Wrapper />
+
+    <DefaultProps name = "Saurabh"/>
+    <DefaultProps/>
     {name}
     <hr></hr>
     <button onClick={()=> setName(name === "Saurabh" ? "Vinay" : "Saurabh")}>Change Name</button>
