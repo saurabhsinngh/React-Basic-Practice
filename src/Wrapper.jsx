@@ -1,10 +1,11 @@
-function Wrapper({children, color = "white"}) {
+function Wrapper({colour = "green", children}) {
   return (
-    <div style={{ color: color, border:"4px solid green", width: "200px", margin: "10px", }}>
-    <h2>Hello guys</h2>
-      {children}
-    </div>
-  );
+    <>
+      <div style={{color : colour, border: "4px solid yellow", padding: "20px"}}>
+      {children ? children: <div>Hii Guys!!</div>}</div>
+    </>
+  )
+
 }
 
 export default Wrapper;

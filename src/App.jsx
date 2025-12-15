@@ -36,8 +36,8 @@ function App() {
   
   return (
   <> 
-    <Wrapper color = "yellow"> <h2>Hello Saurabh</h2></ Wrapper>
-    <Wrapper color = "blue"> <h2>Hello Suraj</h2></ Wrapper>
+    <Wrapper colour = "blue">Gaurav Singh </Wrapper>
+    <br />
     <Wrapper />
 
     <DefaultProps name = "Saurabh"/>
