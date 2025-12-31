@@ -3,7 +3,7 @@ import Alert from './Alert';
 import { useState } from 'react';
 import Test1 from './test1';
 // If not a default export so when import it should be inside {} if default export at the time of import it will be without {}
-import { userInfo } from './Export'; 
+//import { userInfo } from './Export'; 
 import PracticeAll  from './practiceAll';
 import Table from './FunctionCall';
 import User from './UseState';
@@ -57,7 +57,7 @@ function App() {
     <User />
     <Table />
     <br></br>
-    <PracticeAll />
+    <Practice />
     {/* <Test1 /> */}
     <Alert />
     {/* <h1> Try to: {userInfo}</h1> */}

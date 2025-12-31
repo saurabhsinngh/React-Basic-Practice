@@ -1,8 +1,8 @@
 function Alert() {
     return (
         <>
-            <h1>New Alert</h1>
-            <button onClick = { () => alert("New alert generated") }> Generate Alert </button>
+          <h1>Generate New Alert</h1>
+          <button onClick = { () => alert("New Alert Generated Successfully")}>Generate Alert</button>
         </>
     )
 }
