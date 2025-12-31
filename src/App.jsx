@@ -56,6 +56,7 @@ function App() {
     <Hook />
     <User />
     <Table />
+    <PracticeAll />
     <br></br>
     <Practice />
     {/* <Test1 /> */}

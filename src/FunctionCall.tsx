@@ -8,7 +8,7 @@ function Table() {
   }
   return (
     <div>
-      <h1> Need to pass the function instead of function call</h1>
+      <h1>Pass the function instead of calling it</h1>
       <button onClick={CallMe}>Press Me</button>
     </div>
   );
