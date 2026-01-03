@@ -16,6 +16,7 @@ import School from './School';
 import DefaultProps from './DefaultProps';
 import Wrapper from './Wrapper';
 import InputField from './InputField'
+import ControllerComponent from './ControllerComponent'
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -37,6 +38,8 @@ function App() {
   
   return (
   <> 
+    <ControllerComponent />
+    <br />
     <InputField />
     <br />
     
