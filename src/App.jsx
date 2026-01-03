@@ -15,6 +15,7 @@ import Prop from './Prop';
 import School from './School';
 import DefaultProps from './DefaultProps';
 import Wrapper from './Wrapper';
+import InputField from './InputField'
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -36,6 +37,9 @@ function App() {
   
   return (
   <> 
+    <InputField />
+    <br />
+    
     <Wrapper colour = "blue">Gaurav Singh </Wrapper>
     <br />
     <Wrapper />
