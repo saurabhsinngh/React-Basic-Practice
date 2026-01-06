@@ -17,6 +17,7 @@ import DefaultProps from './DefaultProps';
 import Wrapper from './Wrapper';
 import InputField from './InputField'
 import ControllerComponent from './ControllerComponent'
+import CheckboxFruits from './CheckboxFruits';
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -37,7 +38,7 @@ function App() {
   const [name, setName] = useState("Vinay");
   
   return (
-  <> 
+  <> <CheckboxFruits />
     <ControllerComponent />
     <br />
     <InputField />
