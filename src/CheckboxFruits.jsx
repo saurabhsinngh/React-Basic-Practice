@@ -13,13 +13,13 @@ function CheckboxFruits() {
 
     return (<>
         <h2>Fruits Name</h2>
-        <input onChange = {updateFruit} type="checkbox" id="apple" value="apple"/> 
+        <input onChange = {updateFruit} type="checkbox" id= "apple" value="apple"/> 
         <label htmlFor="apple">APPLE</label><br /> <br />
 
-        <input onChange = {updateFruit} type="checkbox" id = "mango" value="apple"/> 
+        <input onChange = {updateFruit} type="checkbox" id = "mango" value="mango"/> 
         <label htmlFor="mango">MANGO</label><br /> <br />
 
-        <input onChange = {updateFruit} type="checkbox" id = "grapes" value="apple"/> 
+        <input onChange = {updateFruit} type="checkbox" id = "grapes" value="grapes"/> 
         <label htmlFor="grapes">GRAPES</label><br /> <br />
 
         <h2>{fruits.toString()}</h2>
