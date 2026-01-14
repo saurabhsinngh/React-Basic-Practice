@@ -19,6 +19,7 @@ import InputField from './InputField'
 import ControllerComponent from './ControllerComponent'
 import CheckboxFruits from './CheckboxFruits';
 import MenuAndDropdown from './MenuAndDropdown';
+import Loop from './Loop';
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -39,7 +40,8 @@ function App() {
   const [name, setName] = useState("Vinay");
   
   return (
-  <> 
+  <>
+    <Loop /> 
     <MenuAndDropdown />
     <CheckboxFruits />
     <ControllerComponent />
