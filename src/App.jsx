@@ -20,6 +20,7 @@ import ControllerComponent from './ControllerComponent'
 import CheckboxFruits from './CheckboxFruits';
 import MenuAndDropdown from './MenuAndDropdown';
 import Loop from './Loop';
+import ReuseLoopComponent from './ReuseLoopComponent';
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -41,6 +42,7 @@ function App() {
   
   return (
   <>
+    <ReuseLoopComponent />
     <Loop /> 
     <MenuAndDropdown />
     <CheckboxFruits />
